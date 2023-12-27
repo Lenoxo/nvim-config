@@ -1,10 +1,12 @@
 return {
   {
+    "navarasu/onedark.nvim",
+    opts = { style = "cool" },
+  },
+  {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "catppuccin",
+      colorscheme = "onedark",
     },
   },
 }
-
--- This is my comment
